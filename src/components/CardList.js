@@ -3,6 +3,10 @@ import React from 'react';
 import Card from './Card';
 
 const CardList = ({ robots }) => {
+   //Making Fake Error to text ErrorBoundry 
+    // if(true){
+    //     throw new Error('Noooooo');
+    // };
 
     const cardArray = robots.map((robot, i) => {
         return (
